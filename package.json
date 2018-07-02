@@ -1,0 +1,26 @@
+{
+  "name": "DesignPattern",
+  "version": "1.0.0",
+  "description": "Mind the store definition and meaning",
+  "main": "checker.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jvinhit/Design_pattern_js_swift.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jvinhit/Design_pattern_js_swift/issues"
+  },
+  "homepage": "https://github.com/jvinhit/Design_pattern_js_swift#readme",
+  "devDependencies": {
+    "eslint": "^5.0.1",
+    "eslint-plugin-import": "^2.13.0",
+    "prettier": "^1.13.7",
+    "prettier-eslint": "^8.8.2"
+  }
+}

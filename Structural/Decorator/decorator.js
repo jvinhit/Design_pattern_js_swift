@@ -1,3 +1,4 @@
+// interface || template off Coffee: 
 function Coffee(){
     this.cost = 0.0;
     this.ingredients = "";
@@ -39,17 +40,16 @@ function Milk(coffee) {
 }
 Milk.prototype = Object.create(CoffeeDecorator.prototype);
 // Add Cream
-function WhipCoffee(coffee) {
+function Creame(coffee) {
     CoffeeDecorator.call(this, coffee);
     this.cost = 0.25;
-    this.ingredients = "Whip Creame ";
+    this.ingredients = "Creame";
 
 }
-WhipCoffee.prototype = Object.create(CoffeeDecorator.prototype);
+Creame.prototype = Object.create(CoffeeDecorator.prototype);
 
 var someCoffee = new SimpleCoffee();
 someCoffee = new Milk(someCoffee);
-someCoffee = new WhipCoffee(someCoffee);
-console.log(someCoffee.getCost())
-console.log(someCoffee.getIngredients())
+someCoffee = new Creame(someCoffee);
+console.log(someCoffee.getIngredients() + ": " + someCoffee.getCost().toString() + "$" )
 
