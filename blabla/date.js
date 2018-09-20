@@ -4,7 +4,9 @@ String.prototype.toDate = function(format) {
     var formatItems = normalizedFormat.split('-');
     var dateItems = normalized.split('-');
 
+	// +++++++++++++++++ Conflic
     var monthIndex = formatItems.indexOf('mm');
+	// +++++++++++++++++ Conflic
     var dayIndex = formatItems.indexOf('dd');
     var yearIndex = formatItems.indexOf('yyyy');
     var hourIndex = formatItems.indexOf('hh');
