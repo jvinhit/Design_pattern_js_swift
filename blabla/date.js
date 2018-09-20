@@ -4,6 +4,8 @@ String.prototype.toDate = function(format) {
     var formatItems = normalizedFormat.split('-');
     var dateItems = normalized.split('-');
 
+    //=================
+    
     var monthIndex = formatItems.indexOf('mm');
     var dayIndex = formatItems.indexOf('dd');
     var yearIndex = formatItems.indexOf('yyyy');
