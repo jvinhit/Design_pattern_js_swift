@@ -13,7 +13,9 @@ String.prototype.toDate = function(format) {
     var hourIndex = formatItems.indexOf('hh');
     var minutesIndex = formatItems.indexOf('ii');
     var secondsIndex = formatItems.indexOf('ss');
-
+    ////
+    16
+    ////
     var today = new Date();
 
     var year = yearIndex > -1 ? dateItems[yearIndex] : today.getFullYear();
