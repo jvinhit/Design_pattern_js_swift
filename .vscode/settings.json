@@ -1,0 +1,10 @@
+{
+    "eslint.enable": true,
+    "editor.formatOnSave": true,
+    "javascript.format.enable": false,
+    "prettier.eslintIntegration": true,
+    "editor.tabSize": 4,
+    "files.associations": {
+        "*.js": "javascriptreact"
+    }
+}
