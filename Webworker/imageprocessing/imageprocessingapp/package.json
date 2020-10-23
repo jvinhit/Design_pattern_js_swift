@@ -1,0 +1,49 @@
+{
+  "name": "imageprocessingapp",
+  "version": "1.0.0",
+  "description": "process images with multi threading",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "node server/server.js",
+    "start-dev": "nodemon server/server.js",
+    "build": "webpack",
+    "build-dev": "webpack -w",
+    "postinstall": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CSdare/imageprocessingapp.git"
+  },
+  "author": "team dare",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CSdare/imageprocessingapp/issues"
+  },
+  "homepage": "https://github.com/CSdare/imageprocessingapp#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "canvas": "^1.6.9",
+    "dotenv": "^4.0.0",
+    "express": "^4.16.2",
+    "mongoose": "^5.0.0-rc1",
+    "node-libs-browser": "^2.1.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "systeminformation": "^3.33.12",
+    "ws": "^4.0.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.7",
+    "file-loader": "^1.1.6",
+    "nodemon": "^1.14.7",
+    "serviceworker-webpack-plugin": "^0.2.3",
+    "style-loader": "^0.19.1",
+    "webpack": "^3.10.0",
+    "worker-loader": "^1.1.0"
+  }
+}
